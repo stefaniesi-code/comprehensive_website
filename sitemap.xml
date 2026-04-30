@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Main mortgage rate tracker page -->
+  <url>
+    <loc>https://silinkre.com/</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://silinkre.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://silinkre.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://silinkre.com/"/>
+  </url>
+
+</urlset>
