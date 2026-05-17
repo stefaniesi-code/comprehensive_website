@@ -10,7 +10,7 @@
   <meta name="cf-2fa-verify" content="none">
 
   <!-- ══ PRIMARY SEO ══ -->
-  <title>房贷利率追踪 | SiLink · Stefanie Si · NJ/NY 华人房贷专家 NMLS#2800972</title>
+  <title>房贷利率追踪｜SiLink</title>
   <meta name="description" content="实时追踪美国30年、15年固定利率及ARM浮动利率，每个工作日更新。提供月供计算器、再融资节省分析、购房能力评估。服务纽约、新泽西华人客户。Stefanie Si，持牌房贷专员，NMLS#2800972。">
   <meta name="keywords" content="房贷利率,mortgage rate today,30 year fixed rate,15 year fixed rate,NJ mortgage,New Jersey mortgage rates,NYC mortgage,纽约房贷,新泽西房贷,华人房贷,Chinese mortgage broker,今日利率,月供计算器,mortgage calculator,refinance calculator,再融资,NMLS 2800972,Stefanie Si,SiLink">
   <meta name="author" content="Stefanie Si, SiLink, NMLS#2800972">
@@ -135,7 +135,7 @@
     @media(min-width:600px){body{padding:24px}}
 
     .landing-hero{display:block;margin-bottom:30px}
-    .hero-copy{display:grid;grid-template-columns:minmax(0,1fr) minmax(230px,280px);gap:24px;align-items:end;padding:20px 4px 22px;border-bottom:1px solid rgba(28,30,39,.10)}
+    .hero-copy{padding:20px 4px 22px;border-bottom:1px solid rgba(28,30,39,.10)}
     .hero-eyebrow{font-size:10px;color:#d86520;text-transform:uppercase;letter-spacing:1.1px;font-weight:900;margin-bottom:8px}
     .hero-copy h1{font-size:clamp(30px,3.8vw,44px);font-weight:900;line-height:1.08;color:#1C1E27;letter-spacing:0;margin-bottom:10px;max-width:680px}
     .hero-copy p{font-size:14px;color:#675c55;line-height:1.65;max-width:620px}
@@ -145,11 +145,6 @@
     .hero-cta.primary:hover{background:#e8732a;transform:translateY(-1px);box-shadow:0 10px 20px rgba(232,115,42,.20)}
     .hero-cta.secondary{background:rgba(255,255,255,.64);border-color:rgba(28,30,39,.10);color:#1C1E27}
     .hero-cta.secondary:hover{background:#fff;transform:translateY(-1px)}
-    .hero-advisor-card{background:rgba(255,255,255,.58);border:1px solid rgba(28,30,39,.08);border-radius:14px;padding:14px 15px}
-    .advisor-name{font-size:15px;font-weight:900;color:#1C1E27;margin-bottom:4px}
-    .advisor-role{font-size:12px;color:#6b5e52;line-height:1.5}
-    .advisor-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:11px}
-    .advisor-meta span{font-size:10px;font-weight:800;color:#8c7b6e;background:#fff;border:1px solid rgba(28,30,39,.07);border-radius:999px;padding:4px 8px}
     .hero-rate-panel{background:rgba(255,255,255,0.76);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.82);border-radius:16px;padding:16px;margin-top:16px;box-shadow:0 14px 34px rgba(40,34,31,.07)}
     .hero-panel-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:12px}
     .hero-panel-title{font-size:12px;font-weight:900;color:#1C1E27;text-transform:uppercase;letter-spacing:.7px}
@@ -434,16 +429,6 @@
         <a class="hero-cta primary" href="#contactFooter" data-en="Book Free Consultation" data-zh="预约免费咨询">预约免费咨询</a>
         <button class="hero-cta secondary" onclick="openQuickInCalculator()" data-en="Calculate Payment" data-zh="先算月供">先算月供</button>
         <button class="hero-cta secondary" onclick="openModal('alertModal')" data-en="Set Rate Alert" data-zh="设置利率提醒">设置利率提醒</button>
-      </div>
-    </div>
-    <div class="hero-advisor-card">
-      <div class="advisor-name">Stefanie Si</div>
-      <div class="advisor-role" data-en="Licensed MLO helping buyers compare rates, cash needed, and monthly payment tradeoffs." data-zh="持牌房贷专员，帮你比较利率、现金需求和月供取舍。">持牌房贷专员，帮你比较利率、现金需求和月供取舍。</div>
-      <div class="advisor-meta">
-        <span>NMLS#2800972</span>
-        <span>CFA</span>
-        <span>FRM</span>
-        <span data-en="EN / 中文" data-zh="中文 / EN">中文 / EN</span>
       </div>
     </div>
   </div>
@@ -3297,8 +3282,8 @@ function applyLang(lang) {
   if (btn) btn.textContent = lang === 'zh' ? 'EN' : '中文';
   document.documentElement.lang = lang === 'zh' ? 'zh' : 'en';
   document.title = lang === 'zh'
-    ? '房贷利率追踪 | SiLink · Stefanie Si · NJ/NY 华人房贷专家 NMLS#2800972'
-    : 'Mortgage Rate Tracker | SiLink · Stefanie Si · NJ/NY NMLS#2800972';
+    ? '房贷利率追踪｜SiLink'
+    : 'Mortgage Rate Tracker | SiLink';
   updateHeaderSub();
   renderForecast();
   renderAdvisor();
