@@ -981,7 +981,7 @@
   </div>
 
   <!-- Reports list -->
-  <div id="reportsList" style="display:flex;flex-direction:column;gap:8px;max-height:230px;overflow-y:auto;padding-right:4px">
+  <div id="reportsList" style="display:flex;flex-direction:column;gap:8px;padding-right:4px">
     <div style="text-align:center;padding:32px;color:#8c7b6e;font-size:13px">
       <div style="width:20px;height:20px;border:2px solid #e8e0d5;border-top-color:#e8732a;border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 12px"></div>
       <span data-en="Loading reports..." data-zh="加载中...">加载中...</span>
@@ -3765,7 +3765,7 @@ function renderReports(reports) {
     const isFirst = i === 0;
 
     return `
-    <div style="background:rgba(255,255,255,0.85);backdrop-filter:blur(10px);border:1px solid ${isFirst?'rgba(232,115,42,.35)':'rgba(255,255,255,0.8)'};border-radius:12px;overflow:hidden">
+    <div style="background:rgba(255,255,255,0.85);backdrop-filter:blur(10px);border:1px solid ${isFirst?'rgba(232,115,42,.35)':'rgba(255,255,255,0.8)'};border-radius:12px">
       <!-- Header -->
       <div style="padding:11px 14px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none"
            onclick="toggleReport(${r.id})">
