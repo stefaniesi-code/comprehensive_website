@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>NJ/NY 华人购房完整指南 2026 | SiLink Mortgage</title>
+<meta name="description" content="纽约新泽西华人购房完整攻略：贷款资格、房贷流程、利率选择、H1B绿卡申贷、首付PMI全解析。Stefanie Si，持牌房贷专员 NMLS#2800972，中英双语服务。">
+<meta name="keywords" content="华人购房指南,纽约买房,新泽西房贷,NJ mortgage,H1B贷款,首付,PMI,华人房贷,Chinese mortgage,SiLink,Stefanie Si,NMLS 2800972">
+<meta name="author" content="Stefanie Si, SiLink, NMLS#2800972">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="NJ/NY 华人购房完整指南 2026 | SiLink Mortgage">
+<meta property="og:description" content="从预批到过户，华人买房全流程解析。中英双语，服务纽约新泽西社区。">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.silinkre.com/buyer-guide/">
+<meta property="og:locale" content="zh_CN">
+<link rel="canonical" href="https://www.silinkre.com/buyer-guide/">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+  {"@type":"Question","name":"H1B签证持有人可以在美国申请房贷吗？","acceptedAnswer":{"@type":"Answer","text":"可以。H1B、L1、O1等工作签证持有人均可申请常规房贷，无需绿卡或公民身份。贷款机构会评估收入、信用记录和签证有效期（通常要求至少剩余1年）。"}},
+  {"@type":"Question","name":"首付不足20%在新泽西买房需要PMI吗？","acceptedAnswer":{"@type":"Answer","text":"是的。首付低于20%通常需要缴纳私人房贷保险（PMI），费率约为贷款金额的0.5%-1.5%/年。当房屋净值达到20%时可申请取消PMI。"}},
+  {"@type":"Question","name":"纽约和新泽西买房有什么主要区别？","acceptedAnswer":{"@type":"Answer","text":"新泽西房产税全美最高，约为房价的1.5%-2.5%/年。纽约市有额外转让税和Mansion Tax。贷款限额、律师费用和过户流程也有所不同。"}},
+  {"@type":"Question","name":"现在选固定利率还是浮动利率（ARM）更合适？","acceptedAnswer":{"@type":"Answer","text":"计划长期持有超过7年选30年固定；计划5-7年内卖房或再融资，5/1或7/1 ARM初期利率更低，可节省月供。"}},
+  {"@type":"Question","name":"NJ/NY买房从申请到过户大概需要多久？","acceptedAnswer":{"@type":"Answer","text":"通常30-45天（签合同到过户），全程约60-90天。建议在签合同前先拿到预批信。"}}
+]}
+</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei','Segoe UI',sans-serif;
+  background:linear-gradient(180deg,#dce8f5 0%,#c8d8ed 30%,#b8c8e0 60%,#a8b8d4 100%);
+  background-attachment:fixed;
+  color:#1C1E27;
+  min-height:100vh;
+  padding:16px;
+}
+.wrap{max-width:860px;margin:0 auto}
+@media(min-width:600px){body{padding:24px}}
+a{color:#e8732a;text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* NAV */
+nav{
+  background:rgba(255,255,255,0.82);
+  backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,0.9);
+  border-radius:14px;
+  padding:0 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  height:52px;
+  margin-bottom:24px;
+  box-shadow:0 4px 16px rgba(28,30,39,.07);
+}
+.nav-logo{font-weight:900;font-size:1.05rem;color:#1C1E27;letter-spacing:-.01em}
+.nav-logo span{color:#e8732a}
+.nav-links{display:flex;gap:1.4rem;font-size:.82rem}
+.nav-links a{color:#675c55;font-weight:500}
+.nav-links a:hover{color:#1C1E27;text-decoration:none}
+.nav-links a.active{color:#e8732a;font-weight:700}
+.nav-cta{
+  background:#1C1E27;color:#fff;
+  border:none;border-radius:9px;
+  padding:7px 16px;font-size:.82rem;font-weight:800;
+  cursor:pointer;text-decoration:none;white-space:nowrap;
+}
+.nav-cta:hover{background:#e8732a;color:#fff;text-decoration:none}
+@media(max-width:580px){.nav-links{display:none}}
+
+/* HERO */
+.hero{
+  background:rgba(255,255,255,0.72);
+  backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,0.88);
+  border-radius:20px;
+  padding:2.4rem 2rem 2rem;
+  margin-bottom:20px;
+  box-shadow:0 14px 34px rgba(28,30,39,.07);
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:6px;
+  background:#fff7f0;border:1px solid #f2c8aa;
+  color:#e8732a;border-radius:999px;
+  font-size:.7rem;font-weight:800;
+  letter-spacing:.06em;padding:4px 12px;
+  margin-bottom:1.1rem;text-transform:uppercase;
+}
+.hero h1{
+  font-size:clamp(1.7rem,4vw,2.5rem);
+  font-weight:900;line-height:1.1;
+  color:#1C1E27;margin-bottom:.8rem;
+  letter-spacing:-.02em;
+}
+.hero h1 em{font-style:normal;color:#e8732a}
+.hero-sub{
+  font-size:.95rem;color:#675c55;
+  max-width:540px;margin-bottom:1.4rem;line-height:1.65;
+}
+.hero-meta{
+  font-size:.75rem;color:#8c7b6e;
+  display:flex;gap:1rem;flex-wrap:wrap;
+  padding-top:.9rem;
+  border-top:1px solid rgba(28,30,39,.08);
+}
+.hero-meta span::before{content:"· "}
+.hero-meta span:first-child::before{content:""}
+
+/* ACCORDION */
+.accordion{
+  background:rgba(255,255,255,0.76);
+  backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,0.88);
+  border-radius:16px;
+  margin-bottom:10px;
+  box-shadow:0 4px 16px rgba(28,30,39,.05);
+  overflow:hidden;
+}
+.accordion.open{
+  border-color:rgba(232,115,42,.25);
+  box-shadow:0 6px 20px rgba(232,115,42,.08);
+}
+
+.acc-header{
+  display:flex;align-items:center;gap:12px;
+  padding:1rem 1.3rem;
+  cursor:pointer;user-select:none;
+  transition:background .15s;
+}
+.acc-header:hover{background:rgba(255,255,255,.5)}
+
+.acc-num{
+  flex-shrink:0;
+  font-size:.65rem;font-weight:900;
+  color:#e8732a;
+  background:#fff7f0;
+  border:1px solid #f2c8aa;
+  border-radius:6px;
+  padding:2px 8px;
+  letter-spacing:.1em;
+  white-space:nowrap;
+}
+.acc-titles{flex:1}
+.acc-title{font-size:.97rem;font-weight:800;color:#1C1E27;line-height:1.3}
+.acc-sub{font-size:.78rem;color:#8c7b6e;margin-top:.12rem;line-height:1.35}
+.acc-arrow{
+  flex-shrink:0;width:24px;height:24px;
+  border-radius:50%;
+  border:1.5px solid rgba(28,30,39,.15);
+  display:flex;align-items:center;justify-content:center;
+  color:#8c7b6e;font-size:.85rem;
+  transition:transform .2s,border-color .15s,color .15s;
+}
+.accordion.open .acc-arrow{
+  transform:rotate(45deg);
+  border-color:#e8732a;color:#e8732a;
+}
+
+.acc-body{
+  display:none;
+  padding:0 1.3rem 1.3rem;
+  border-top:1px solid rgba(28,30,39,.07);
+}
+.accordion.open .acc-body{display:block}
+
+/* BODY CONTENT */
+.acc-body p{color:#675c55;font-size:.88rem;margin-bottom:.75rem;line-height:1.65}
+.acc-body p:last-child{margin-bottom:0}
+.acc-body strong{color:#1C1E27;font-weight:700}
+.acc-body h3{font-size:.85rem;font-weight:800;color:#1C1E27;margin:1.1rem 0 .45rem;text-transform:uppercase;letter-spacing:.04em}
+.acc-body ul,.acc-body ol{padding-left:1.2rem;margin-bottom:.75rem}
+.acc-body li{color:#675c55;font-size:.87rem;margin:.28rem 0;line-height:1.55}
+.acc-body li strong{color:#1C1E27}
+.acc-body hr{border:none;border-top:1px solid rgba(28,30,39,.08);margin:.9rem 0}
+
+/* CARDS */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:8px;margin:.9rem 0}
+.card{
+  background:#faf8f5;
+  border:1px solid rgba(28,30,39,.08);
+  border-radius:12px;padding:.8rem .9rem;
+}
+.card.hl{border-color:#f2c8aa;background:#fff7f0}
+.card-label{font-size:.65rem;color:#8c7b6e;font-weight:800;text-transform:uppercase;letter-spacing:.07em;margin-bottom:.28rem}
+.card-value{font-size:1rem;font-weight:900;color:#1C1E27;margin-bottom:.18rem}
+.card-value.orange{color:#e8732a}
+.card-value.blue{color:#2563eb}
+.card-value.green{color:#16a34a}
+.card-desc{font-size:.73rem;color:#8c7b6e;line-height:1.4;margin:0}
+
+/* STEPS */
+.steps{list-style:none;padding:0;margin:.9rem 0}
+.steps li{display:flex;gap:.85rem;margin-bottom:.9rem;align-items:flex-start}
+.step-n{
+  flex-shrink:0;width:26px;height:26px;
+  border-radius:50%;
+  background:#fff7f0;border:1.5px solid #f2c8aa;
+  color:#e8732a;font-size:.72rem;font-weight:900;
+  display:flex;align-items:center;justify-content:center;margin-top:1px;
+}
+.step-c{flex:1}
+.step-t{font-weight:800;color:#1C1E27;font-size:.87rem;margin-bottom:.12rem}
+.step-d{font-size:.82rem;color:#675c55;margin:0;line-height:1.5}
+.step-tag{
+  font-size:.65rem;color:#e8732a;
+  background:#fff7f0;border:1px solid #f2c8aa;
+  border-radius:999px;padding:1px 7px;
+  margin-left:.35rem;font-weight:800;
+}
+
+/* TABLE */
+.ctable{width:100%;border-collapse:collapse;font-size:.8rem;margin:.9rem 0}
+.ctable th{background:#f5f0ea;color:#1C1E27;font-weight:800;padding:.5rem .75rem;text-align:left;border:1px solid rgba(28,30,39,.1);font-size:.75rem}
+.ctable td{padding:.48rem .75rem;border:1px solid rgba(28,30,39,.08);color:#675c55;vertical-align:top}
+.ctable tr:nth-child(even) td{background:rgba(250,248,245,.6)}
+.ctable td:first-child{color:#1C1E27;font-weight:700;white-space:nowrap}
+
+/* CALLOUT */
+.note{
+  background:#fff7f0;
+  border-left:3px solid #e8732a;
+  border-radius:0 10px 10px 0;
+  padding:.75rem 1rem;margin:.9rem 0;
+}
+.note p{margin:0;font-size:.83rem;color:#675c55}
+.note p strong{color:#e8732a}
+.note.blue{background:#eff6ff;border-left-color:#2563eb}
+.note.blue p strong{color:#2563eb}
+.note.green{background:#f0fdf4;border-left-color:#16a34a}
+.note.green p strong{color:#16a34a}
+
+/* AUTHOR */
+.author-card{
+  display:flex;gap:1rem;align-items:center;
+  background:rgba(255,255,255,0.76);
+  backdrop-filter:blur(12px);
+  border:1px solid rgba(255,255,255,0.88);
+  border-radius:16px;padding:1rem 1.3rem;
+  margin:1.5rem 0 0;
+  box-shadow:0 4px 16px rgba(28,30,39,.05);
+}
+.author-av{
+  width:46px;height:46px;border-radius:50%;
+  background:#fff7f0;border:2px solid #f2c8aa;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.1rem;font-weight:900;color:#e8732a;flex-shrink:0;
+}
+.author-name{font-weight:900;color:#1C1E27;font-size:.93rem}
+.author-role{font-size:.75rem;color:#8c7b6e;margin:.1rem 0 .4rem}
+.badges{display:flex;gap:.3rem;flex-wrap:wrap}
+.badge{
+  font-size:.65rem;font-weight:800;
+  padding:2px 7px;border-radius:999px;
+  background:#fff7f0;color:#e8732a;
+  border:1px solid #f2c8aa;
+}
+@media(max-width:500px){.author-card{flex-direction:column;text-align:center}}
+
+/* CTA */
+.cta-section{
+  background:rgba(255,255,255,0.76);
+  backdrop-filter:blur(14px);
+  border:1px solid rgba(255,255,255,0.88);
+  border-radius:20px;
+  padding:2rem 1.8rem;text-align:center;
+  margin-top:1.5rem;
+  box-shadow:0 8px 24px rgba(28,30,39,.06);
+}
+.cta-section h2{font-size:1.2rem;font-weight:900;color:#1C1E27;margin-bottom:.4rem;letter-spacing:-.01em}
+.cta-section p{font-size:.87rem;color:#675c55;margin-bottom:1.2rem}
+.cta-btns{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap}
+.btn-p{
+  background:#1C1E27;color:#fff;
+  border:none;border-radius:9px;
+  padding:10px 20px;font-size:.85rem;font-weight:800;
+  cursor:pointer;text-decoration:none;display:inline-block;
+  transition:background .15s,transform .15s;
+}
+.btn-p:hover{background:#e8732a;color:#fff;text-decoration:none;transform:translateY(-1px)}
+.btn-s{
+  background:rgba(255,255,255,.64);color:#1C1E27;
+  border:1px solid rgba(28,30,39,.12);border-radius:9px;
+  padding:10px 20px;font-size:.85rem;font-weight:700;
+  cursor:pointer;text-decoration:none;display:inline-block;
+  transition:background .15s,transform .15s;
+}
+.btn-s:hover{background:#fff;text-decoration:none;transform:translateY(-1px)}
+
+/* DISCLAIMER */
+.disclaimer{
+  margin-top:2rem;padding-top:1rem;
+  border-top:1px solid rgba(28,30,39,.1);
+  font-size:.7rem;color:#8c7b6e;line-height:1.6;
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo">Stefanie <span>Si</span></span>
+    <div class="nav-links">
+      <a href="https://www.silinkre.com/">主页</a>
+      <a href="https://www.silinkre.com/rate-tracker/">利率追踪</a>
+      <a href="https://www.silinkre.com/buyer-guide/" class="active">买房指南</a>
+    </div>
+    <a href="https://www.silinkre.com/#contact" class="nav-cta">立即咨询</a>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-eyebrow">🏠 买房指南 · Buyer's Guide</div>
+    <h1>NJ/NY <em>华人购房</em><br>完整指南 2026</h1>
+    <p class="hero-sub">从预批到过户，六个核心问题，点击展开你最关心的部分。</p>
+    <div class="hero-meta">
+      <span>Stefanie Si · NMLS#2800972</span>
+      <span>New Jersey · New York</span>
+      <span>中英双语</span>
+      <span>2026年更新</span>
+    </div>
+  </div>
+
+  <!-- 01 -->
+  <div class="accordion" id="a1">
+    <div class="acc-header" onclick="toggle('a1')">
+      <span class="acc-num">01</span>
+      <div class="acc-titles">
+        <div class="acc-title">贷款资格：谁可以申请？</div>
+        <div class="acc-sub">H1B、L1、绿卡、ITIN — 不同身份怎么贷</div>
+      </div>
+      <div class="acc-arrow">+</div>
+    </div>
+    <div class="acc-body">
+      <p>很多华人客户以为必须是美国公民或永久居民才能申请房贷——<strong>这是常见误解</strong>。只要有合法工作身份和稳定收入，大多数人都可以申请。</p>
+      <div class="card-grid">
+        <div class="card hl">
+          <div class="card-label">✓ 工作签证</div>
+          <div class="card-value orange">H1B · L1 · O1 · TN</div>
+          <p class="card-desc">签证剩余 ≥ 1 年，或有续签记录，可申请常规贷款</p>
+        </div>
+        <div class="card">
+          <div class="card-label">✓ 绿卡 / 公民</div>
+          <div class="card-value green">GC · USC</div>
+          <p class="card-desc">条件最宽松，利率最优，额度上限最高</p>
+        </div>
+        <div class="card">
+          <div class="card-label">⚠ 特殊情况</div>
+          <div class="card-value" style="color:#d97706">EAD · F1 OPT</div>
+          <p class="card-desc">需特定产品，部分银行接受，需个案评估</p>
+        </div>
+        <div class="card">
+          <div class="card-label">✓ 无 SSN</div>
+          <div class="card-value blue">ITIN 贷款</div>
+          <p class="card-desc">适合无社安号买家，首付要求通常 20%–30%</p>
+        </div>
+      </div>
+      <h3>审批的四个核心维度</h3>
+      <ul>
+        <li><strong>信用分（Credit Score）：</strong>通常要求 620 分以上，分数越高利率越低</li>
+        <li><strong>债务收入比（DTI）：</strong>月供 + 所有债务 ÷ 月收入，建议控制在 43% 以内</li>
+        <li><strong>首付比例：</strong>常规贷款最低 3%–5%，首付越高月供越低</li>
+        <li><strong>就业稳定性：</strong>通常需要连续工作 2 年记录，自雇需提供 2 年税单</li>
+      </ul>
+      <div class="note blue">
+        <p><strong>H1B 提示：</strong>即将到期但有 I-140 批准或 I-485 在审，大多数贷款机构视为身份稳定，仍可正常申请。每家银行政策不同，建议提前咨询。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 02 -->
+  <div class="accordion" id="a2">
+    <div class="acc-header" onclick="toggle('a2')">
+      <span class="acc-num">02</span>
+      <div class="acc-titles">
+        <div class="acc-title">首付策略：20% 以下能买吗？</div>
+        <div class="acc-sub">PMI 是什么、值不值得付、低首付的真实成本</div>
+      </div>
+      <div class="acc-arrow">+</div>
+    </div>
+    <div class="acc-body">
+      <p>首付 20% 是广为流传的"标准"，但在 NJ/NY 高房价市场，很多买家选择较低首付入手——只要算清楚数字，这个策略完全合理。</p>
+      <table class="ctable">
+        <thead><tr><th>贷款类型</th><th>最低首付</th><th>信用分</th><th>适合人群</th></tr></thead>
+        <tbody>
+          <tr><td>Conventional</td><td>3%–5%</td><td>620+</td><td>W2 工薪族，中高收入</td></tr>
+          <tr><td>FHA</td><td>3.5%</td><td>580+</td><td>首次购房，信用分较低</td></tr>
+          <tr><td>VA</td><td>0%</td><td>620+</td><td>现役军人、退伍军人</td></tr>
+          <tr><td>Jumbo</td><td>10%–20%</td><td>700+</td><td>高价房产（NJ/NY 常见）</td></tr>
+          <tr><td>DSCR（投资房）</td><td>20%–25%</td><td>680+</td><td>购置出租房、投资客</td></tr>
+        </tbody>
+      </table>
+      <h3>关于 PMI</h3>
+      <p>首付低于 20% 时需购买私人房贷保险（PMI），费率约为<strong>贷款金额 0.5%–1.5%/年</strong>，计入月供。LTV 降到 80% 以下时可申请取消。</p>
+      <div class="note">
+        <p><strong>举例：</strong>贷款 $600,000，PMI 0.8%/年 → 月均 $400。NJ 房价涨速较快，部分买家 3–5 年内即可取消 PMI。</p>
+      </div>
+      <div class="note green">
+        <p><strong>NJ 首次购房者：</strong>NJHMFA 计划提供最高 $15,000 免息首付援助，符合收入限制的买家可申请。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 03 -->
+  <div class="accordion" id="a3">
+    <div class="acc-header" onclick="toggle('a3')">
+      <span class="acc-num">03</span>
+      <div class="acc-titles">
+        <div class="acc-title">买房全流程：从预批到过户</div>
+        <div class="acc-sub">8 个步骤，总耗时约 60–90 天</div>
+      </div>
+      <div class="acc-arrow">+</div>
+    </div>
+    <div class="acc-body">
+      <ul class="steps">
+        <li><div class="step-n">1</div><div class="step-c"><div class="step-t">整理财务，准备文件 <span class="step-tag">1–2 周</span></div><p class="step-d">收集过去 2 年 W2/税单、近 2 个月银行流水、就业证明。H1B 需带工作许可文件。</p></div></li>
+        <li><div class="step-n">2</div><div class="step-c"><div class="step-t">获取贷款预批信（Pre-Approval）<span class="step-tag">2–5 个工作日</span></div><p class="step-d">预批信是参与竞价的入场券。注意：预批 ≠ 最终批准，但没有它无法出价。</p></div></li>
+        <li><div class="step-n">3</div><div class="step-c"><div class="step-t">配合经纪人看房、出价 <span class="step-tag">2–8 周</span></div><p class="step-d">NJ/NY 竞争激烈，了解是否放弃房检保护（waive inspection）很重要，谨慎决定。</p></div></li>
+        <li><div class="step-n">4</div><div class="step-c"><div class="step-t">签署购房合同 <span class="step-tag">1–2 周</span></div><p class="step-d">NJ 法律要求双方各有 3 天律师审查期（Attorney Review），可修改合同条款。缴纳定金约房价 1%–2%。</p></div></li>
+        <li><div class="step-n">5</div><div class="step-c"><div class="step-t">正式提交贷款申请 &amp; 锁定利率 <span class="step-tag">签合同后 3 天内</span></div><p class="step-d">Rate Lock 通常 30–45 天，需在此期间完成过户。</p></div></li>
+        <li><div class="step-n">6</div><div class="step-c"><div class="step-t">房屋评估 &amp; 产权调查 <span class="step-tag">1–2 周</span></div><p class="step-d">第三方评估公司估价（Appraisal），产权公司确认无留置权（Lien）或纠纷。</p></div></li>
+        <li><div class="step-n">7</div><div class="step-c"><div class="step-t">贷款审核（Underwriting）<span class="step-tag">1–3 周</span></div><p class="step-d">此阶段不要新增债务、不要换工作、不要大额消费。审核师可能追加材料要求。</p></div></li>
+        <li><div class="step-n">8</div><div class="step-c"><div class="step-t">过户（Closing）<span class="step-tag">约 1–2 小时</span></div><p class="step-d">支付首付 + 过户费用（通常房价 2%–5%）。NJ 过户需律师出席。完成后拿钥匙。</p></div></li>
+      </ul>
+      <div class="note">
+        <p><strong>过户费用包含：</strong>贷款发起费、评估费、产权保险、律师费、预缴房产税和房屋保险。NJ 房价超 $100 万需额外支付 1% Mansion Tax。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 04 -->
+  <div class="accordion" id="a4">
+    <div class="acc-header" onclick="toggle('a4')">
+      <span class="acc-num">04</span>
+      <div class="acc-titles">
+        <div class="acc-title">固定利率 vs ARM：怎么选？</div>
+        <div class="acc-sub">取决于你计划持房多久 — 数字对比一目了然</div>
+      </div>
+      <div class="acc-arrow">+</div>
+    </div>
+    <div class="acc-body">
+      <div class="card-grid">
+        <div class="card hl">
+          <div class="card-label">30年固定</div>
+          <div class="card-value orange">稳定优先</div>
+          <p class="card-desc">利率30年锁定，月供不变。适合持房 &gt;7 年。</p>
+        </div>
+        <div class="card">
+          <div class="card-label">15年固定</div>
+          <div class="card-value green">省利息</div>
+          <p class="card-desc">利率比30年低 0.5%–0.75%，但月供更高。适合收入充裕的买家。</p>
+        </div>
+        <div class="card">
+          <div class="card-label">5/1 ARM</div>
+          <div class="card-value blue">初期省钱</div>
+          <p class="card-desc">前5年固定利率，第6年开始每年调整。适合5年内卖房或再融资。</p>
+        </div>
+        <div class="card">
+          <div class="card-label">7/1 ARM</div>
+          <div class="card-value blue">更长缓冲</div>
+          <p class="card-desc">前7年固定，NJ/NY 换房周期 6–8 年的买家常见选择。</p>
+        </div>
+      </div>
+      <div class="note blue">
+        <p><strong>用数字说话：</strong>贷款 $700,000，30年固定 6.8% vs 7/1 ARM 6.1%——前7年每月节省约 $350，累计约 $29,400。用 <a href="https://www.silinkre.com/rate-tracker/#toolGrid">ARM vs 固定对比工具</a> 计算你的方案。</p>
+      </div>
+      <h3>注意事项</h3>
+      <ul>
+        <li>ARM 到期重置后，利率上限通常为初始利率 +5%（取决于合同条款）</li>
+        <li>如果计划再融资，需评估届时利率环境和再融资成本</li>
+        <li>心理上对利率波动不适应的买家，固定利率更合适</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 05 -->
+  <div class="accordion" id="a5">
+    <div class="acc-header" onclick="toggle('a5')">
+      <span class="acc-num">05</span>
+      <div class="acc-titles">
+        <div class="acc-title">NJ vs NY：两个市场的关键差异</div>
+        <div class="acc-sub">房产税、过户流程、学区、通勤 — 并排对比</div>
+      </div>
+      <div class="acc-arrow">+</div>
+    </div>
+    <div class="acc-body">
+      <table class="ctable">
+        <thead><tr><th>维度</th><th>新泽西（NJ）</th><th>纽约（NY/NYC）</th></tr></thead>
+        <tbody>
+          <tr><td>房产税</td><td>全美最高，约 1.5%–2.5%/年。Bergen County 平均 $12K–$18K/年</td><td>相对较低，NYC 约 0.9%–1.2%，但 Coop/Condo 有月费</td></tr>
+          <tr><td>额外税费</td><td>Mansion Tax（超 $100 万 +1%），转让税</td><td>NYC 转让税更高，Mansion Tax 累进（1%–3.9%），Mortgage Recording Tax 约 1.8%</td></tr>
+          <tr><td>过户流程</td><td>必须有律师，Attorney Review 3 天</td><td>律师参与但灵活；Coop 需董事会批准，周期可达 2–3 个月</td></tr>
+          <tr><td>房屋类型</td><td>独栋 + Townhouse 为主，空间大，适合家庭</td><td>Condo/Coop 为主，产权结构复杂</td></tr>
+          <tr><td>学区</td><td>Bergen County、Westfield、Millburn 等顶级公立学区</td><td>公立参差不齐，好学区竞争激烈</td></tr>
+          <tr><td>通勤</td><td>NJ Transit 到 Penn/WTC 约 30–60 分钟，需开车到车站</td><td>地铁通勤，无需换乘但高峰拥挤</td></tr>
+          <tr><td>适合人群</td><td>有孩子家庭，追求学区和空间，接受高房产税</td><td>单身/丁克，不开车，追求城市便利</td></tr>
+        </tbody>
+      </table>
+      <div class="note">
+        <p><strong>华人常选 NJ 社区：</strong>Fort Lee（直通曼哈顿，中超密集）、Edison（华人聚居，学区好）、Parsippany、Livingston、Westfield。</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- 06 FAQ -->
+  <div class="accordion" id="a6">
+    <div class="acc-header" onclick="toggle('a6')">
+      <span class="acc-num">06</span>
+      <div class="acc-titles">
+        <div class="acc-title">常见问题 FAQ</div>
+        <div class="acc-sub">H1B 申贷 · 中国存款做首付 · 房产税算月供 · 过户时间</div>
+      </div>
+      <div class="acc-arrow">+</div>
+    </div>
+    <div class="acc-body">
+      <h3>H1B 签证可以申请房贷吗？</h3>
+      <p>可以。H1B、L1、O1 等工作签证持有人均可申请常规房贷，无需绿卡。贷款机构会看收入、信用和签证剩余有效期（通常 ≥1 年，或有 I-140 批准/续签记录）。大多数持有 H1B 且收入稳定的客户都能顺利获批。</p>
+      <hr>
+      <h3>首付不足 20%，需要 PMI 吗？</h3>
+      <p>是的。首付低于 20% 的常规贷款需要 PMI，费率约 0.5%–1.5%/年，计入月供。LTV 降到 80% 以下时可申请取消。FHA 贷款的 MIP 规则不同，部分情况需支付整个贷款期限。</p>
+      <hr>
+      <h3>NJ 房产税怎么算进月供？</h3>
+      <p>月供总成本 = PITI（本金 + 利息 + 房产税 + 保险）。Bergen County $800,000 的房子，年房产税约 $14,000–$18,000，每月额外 $1,167–$1,500，叠加在本息月供之上。建议看房前先用<a href="https://www.silinkre.com/rate-tracker/#toolGrid">月供计算器</a>测算含税总月供。</p>
+      <hr>
+      <h3>从申请到过户大概要多久？</h3>
+      <p>签合同到过户通常 30–45 天，全程（含找房）约 60–90 天。预批 2–5 个工作日，贷款审核和评估 2–3 周，最终批准约 1 周。建议开始找房前就拿到预批信。</p>
+      <hr>
+      <h3>在中国的存款可以用于首付吗？</h3>
+      <p>可以，但需要规范的资产核查。需确认：来源合法（银行流水，可能需翻译公证）、资产已转入美国账户且有 60 天以上账户历史、符合反洗钱要求。建议提前 3–6 个月规划资金转移。</p>
+      <hr>
+      <h3>固定利率还是 ARM？</h3>
+      <p>计划持房超过 7 年 → 30 年固定，月供稳定。计划 5–7 年内换房或再融资 → 5/1 或 7/1 ARM，初始利率更低，前期节省明显。与其等"完美时机"，更建议算清月供承受范围后尽早入市。</p>
+    </div>
+  </div>
+
+  <!-- AUTHOR -->
+  <div class="author-card">
+    <div class="author-av">S</div>
+    <div>
+      <div class="author-name">Stefanie Si · 斯斯</div>
+      <p class="author-role">Licensed Mortgage Loan Originator · NMLS#2800972 · GMCC · Equal Housing Lender</p>
+      <div class="badges">
+        <span class="badge">持牌 MLO</span>
+        <span class="badge">CFA</span>
+        <span class="badge">FRM</span>
+        <span class="badge">中英双语</span>
+        <span class="badge">NJ · NY</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-section">
+    <h2>准备好开始了吗？</h2>
+    <p>发给我你的目标房价、首付预算和时间计划，我帮你算清月供和最优方案。免费，无压力。</p>
+    <div class="cta-btns">
+      <a href="https://www.silinkre.com/#contact" class="btn-p">立即咨询</a>
+      <a href="https://www.silinkre.com/rate-tracker/" class="btn-s">查看今日利率</a>
+    </div>
+    <p style="margin-top:1rem;font-size:.75rem;color:#8c7b6e">📱 (201) 660-3602 &nbsp;·&nbsp; 💬 WeChat: stefanie_si &nbsp;·&nbsp; 📕 小红书：斯斯子在美东</p>
+  </div>
+
+  <!-- DISCLAIMER -->
+  <div class="disclaimer">
+    <p><strong>免责声明：</strong>本页面内容仅供教育和参考目的，不构成贷款承诺或财务建议。贷款批准取决于个人信用、收入、资产及贷款机构要求。房产税、利率和政策信息可能随时间变化。Stefanie Si，NMLS#2800972，GMCC，Equal Housing Lender。</p>
+  </div>
+
+</div><!-- /wrap -->
+
+<script>
+function toggle(id){
+  var el=document.getElementById(id);
+  var isOpen=el.classList.contains('open');
+  document.querySelectorAll('.accordion.open').forEach(function(a){a.classList.remove('open')});
+  if(!isOpen){el.classList.add('open')}
+}
+</script>
+</body>
+</html>
